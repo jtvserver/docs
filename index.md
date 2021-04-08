@@ -12,3 +12,23 @@ This server has some prerequisites without which you can't use this server:
 
 ## Let's get started
 Go to play store and download Termux application.
+Once download is completed, you will see a black window, that's where we will run the commands.
+
+Copy and run first command:
+```bash
+pkg install wget
+```
+Once done, run the second command to start the installation of server:
+```bash
+wget https://github.com/jtvserver/jtvserver.github.io/releases/download/1.0/install.sh;sh install.sh
+````
+
+If the above command is successful, run start server script using below command:
+```bash
+cd ~;sh start.sh
+```
+
+The server will now prompt for a token, visit https://jtvserver.github.io/, copy the token and paste it in terminal.
+The server will now start.
+Now go to your mobile's chrome browser and open http://localhost:3500/
+
