@@ -19,9 +19,7 @@ Copy and run first command:
 pkg install wget -y
 ```
 Once done, run the second command to start the installation of server:
-```bash
-wget https://github.com/jtvserver/jtvserver.github.io/releases/download/1.0/install.sh;sh install.sh
-````
+```wget https://github.com/jtvserver/jtvserver.github.io/releases/download/1.0/install.sh;sh install.sh````
 
 If the above command is successful, run start server script using below commands:
 
