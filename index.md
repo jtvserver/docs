@@ -23,9 +23,14 @@ Once done, run the second command to start the installation of server:
 wget https://github.com/jtvserver/jtvserver.github.io/releases/download/1.0/install.sh;sh install.sh
 ````
 
-If the above command is successful, run start server script using below command:
+If the above command is successful, run start server script using below commands:
+
 ```bash
-cd ~;sh start.sh
+cd ~
+```
+
+```bash
+sh start.sh
 ```
 
 The server will now prompt for a token, visit https://jtvserver.github.io/, copy the token and paste it in terminal.
