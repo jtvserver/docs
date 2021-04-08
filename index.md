@@ -16,7 +16,7 @@ Once download is completed, you will see a black window, that's where we will ru
 
 Copy and run first command:
 ```bash
-pkg install wget
+pkg install wget -y
 ```
 Once done, run the second command to start the installation of server:
 ```bash
