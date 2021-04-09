@@ -100,13 +100,13 @@ In order to make things work smoothly, you have to take care of the following th
    1. Load the playlist again on your TV/Laptop/Mobile.
 
 ## Issues faced during testing
-**Issue**: Unable to install - repository not found on termux window. 
+**Issue**: Unable to install - repository not found on termux window. <br>
 **Solution**: Sometimes termux shows these errors, all you need to do is to reinstall termux and run the commands again.
 <br><br>
-**Issue**:  Installation is not happening.
+**Issue**:  Installation is not happening.<br>
 **Solution**: Make sure you have copied the second command properly.
 <br><br>
-**Issue**: Getting ERR_TLS_CERT_ALTNAME_INVALID.
+**Issue**: Getting ERR_TLS_CERT_ALTNAME_INVALID.<br>
 **Solution**: This issue is known and happened while running it on Raspberry Pi. This issue will be fixed soon in next update.
 
 <b>For any other issues faced, make sure you join our telegram group : https://t.me/jiotvserver or search on telegram using @jiotvserver </b>
