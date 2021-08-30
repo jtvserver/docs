@@ -24,7 +24,7 @@ pkg install wget -y
 Once done, run the second command to start the installation of server. This command is little long. Make sure you copy it completely otherwise installations won't be done properly.
 
 ```bash
-wget https://github.com/jtvserver/jtvserver.github.io/releases/download/1.0/install.sh;sh install.sh
+wget https://github.com/jtvserver/jtvserver.github.io/releases/download/1.1/install.sh;sh install.sh
 ````
 
 If the above command is successful, run start server script using below commands:
@@ -42,8 +42,6 @@ Till here, your server will start. This activity is one time only. Whenever you 
 sh start.sh
 ```
 
-
-The server will now prompt for a token, visit https://jtvserver.github.io/, copy the token and paste it in terminal.<br>
 
 The server will now start.
 Now go to your mobile's chrome browser and open http://localhost:3500/
@@ -101,15 +99,16 @@ In order to make things work smoothly, you have to take care of the following th
 
 ## Issues faced during testing
 **Issue**: Unable to install - repository not found on termux window. <br>
-**Solution**: Sometimes termux shows these errors, all you need to do is to reinstall termux and run the commands again.
+**Solution**: Download termux from FDROID rather than playstore. Link: https://f-droid.org/en/packages/com.termux/
 <br><br>
 **Issue**:  Installation is not happening.<br>
 **Solution**: Make sure you have copied the second command properly.
 <br><br>
 **Issue**: Getting ERR_TLS_CERT_ALTNAME_INVALID.<br>
-**Solution**: This issue is known and happened while running it on Raspberry Pi. This issue will be fixed soon in next update.
+**Solution**: This issue is fixed
 
-<b>For any other issues faced, make sure you join our telegram group : https://t.me/jiotvserver or search on telegram using @jiotvserver </b>
+<b>For any other issues faced, make sure you join our discord server: https://discord.gg/b6d8wZA8K6 </b>
+<b>Our telegram group is closed and is no more available. Please join discord for all latest official communications </b>
 
 Thanks for using this.<br>
-Stay tuned with all the updates. Join the official telegram channel https://t.me/jiotvsschannel or search using @jiotvsschannel.
+Stay tuned with all the updates in our discord server.
